@@ -11,10 +11,10 @@ import login from '../assets/iniciar-sesion.svg';
 function SocialInit({onLogin}) {
   return (
     <div className="content-btn">
-    <img src={facebook} className="red-social"/> 
-    <img src={twitter} className="red-social"/>
-    <img src={instagram} className="red-social"/> 
-    <img src={login} className="btn-login" onClick={onLogin}/>
+    <img src={facebook} className="red-social" alt="img1"/> 
+    <img src={twitter} className="red-social"  alt="img2"/>
+    <img src={instagram} className="red-social"  alt="img3"/> 
+    <img src={login} className="btn-login" onClick={onLogin}  alt="img4"/>
    </div>
   );
 }
